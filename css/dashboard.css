@@ -1,0 +1,180 @@
+.navbar-brand {
+    font-family: 'berlinsans';
+    font-size: 44px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 40px;
+    color: #2C1E30 !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5CCFF !important;
+    height: 718px;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'berlinsans';
+    src: url('../font/berlin_sans/berlinsans.ttf');
+    src: url('../font/berlin_sans/berlinsans.ttf') format('ttf'),
+        url('../font/berlin_sans/berlinsans.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+
+#header-nav {
+    background-color: #F5CCFF;
+    font-family: 'Inter',
+        sans-serif;
+    font-weight: 500 !important;
+}
+
+#navbarNavDropdown {
+    font-size: 20px !important;
+    margin-top: 70px;
+
+}
+
+
+section {
+    background-color: #F5CCFF;
+}
+
+.nav-item {
+    margin-left: 40px;
+}
+
+.mainmenubtn {
+    background-color: #853699;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 300px;
+    border-radius: 20px;
+    margin-top: -60px;
+}
+
+.mainmenubtn:hover {
+    background-color: #853699;
+    color: #fff;
+    font-family: 'Inter',
+    sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Inter',
+    sans-serif;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: #853699;
+    margin-left: 300px;
+    height: 120px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.dropdown-child a {
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.btn-enroll{
+    width: 240px;
+    height: 144px;
+    border-radius: 30px;
+    margin-left: 40px;
+    background-color: #EDA4FF;
+    font-size: 25px;
+    font-family: 'Inter',
+    sans-serif;
+}
+.btn-course{
+    width: 240px;
+    height: 144px;
+    border-radius: 30px;
+    margin-left: 60px;
+    background-color: #853699;
+    font-size: 25px;
+    font-family: 'Inter',
+    sans-serif;
+    color: #fff;
+}
+
+
+
+
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #4D095F;
+    margin-top: 100px;
+}
+
+.footer-ollearn {
+    padding-top: 20px;
+    font-family: 'berlinsans';
+    font-size: 44px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78px;
+    text-align: left;
+    margin-left: 40px;
+    color: #FBE9FF !important;
+}
+
+.cpy-rgt {
+    color: #FBE9FF !important;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: -10px;
+    font-family: 'Inter',
+        sans-serif;
+}
+
+.ToS {
+    color: #FBE9FF !important;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: -10px;
+    font-family: 'Inter',
+        sans-serif;
+}
+
+.social-media {
+    color: #FBE9FF !important;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: -10px;
+    font-family: 'Inter',
+        sans-serif;
+    margin-left: 900px;
+    margin-top: -120px;
+}
+
+.line {
+    margin-left: 900px;
+    margin-top: -50px;
+}
+
+.img-insta{
+    margin-left: -280px;
+    margin-right: 20px;
+}
