@@ -47,6 +47,10 @@ section {
     background-color: #F5CCFF;
 }
 
+.container-form{
+    margin-left: 80px;
+}
+
 .nav-item {
     margin-left: 40px;
 }
@@ -54,6 +58,8 @@ section {
 .form-class {
     color: #222;
     font-size: 20px;
+    
+
 }
 
 .input-class {
